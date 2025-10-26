@@ -1,0 +1,19 @@
+{
+  "name": "widget-company-directory-assessment",
+  "version": "1.0.0",
+  "description": "WordPress plugin take-home assessment environment",
+  "scripts": {
+    "env:start": "wp-env start",
+    "env:stop": "wp-env stop",
+    "env:destroy": "wp-env destroy",
+    "env:clean": "wp-env clean all",
+    "setup": "npm install && cd widget-company-directory && npm install && npm run build"
+  },
+  "keywords": [
+    "wordpress",
+    "assessment"
+  ],
+  "devDependencies": {
+    "@wordpress/env": "^10.9.0"
+  }
+}

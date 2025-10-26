@@ -1,0 +1,22 @@
+{
+  "core": "WordPress/WordPress#6.8.3",
+  "plugins": [
+    "./widget-company-directory"
+  ],
+  "mappings": {
+    "wp-content/plugins/widget-company-directory/data": "/Users/silviachen/Desktop/web-take-home-main/data"
+  },
+  "config": {
+    "WP_DEBUG": true,
+    "WP_DEBUG_LOG": true,
+    "SCRIPT_DEBUG": true
+  },
+  "port": 8888,
+  "env": {
+    "development": {
+      "plugins": [
+        "./widget-company-directory"
+      ]
+    }
+  }
+}

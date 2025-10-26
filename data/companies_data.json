@@ -1,0 +1,322 @@
+[
+    {
+      "name": "WidgetPro Solutions",
+      "rating": 9,
+      "benefits": [
+        "Industry-leading durability with 10-year warranty",
+        "24/7 customer support with 99.9% satisfaction rate",
+        "Seamless integration with all major platforms"
+      ],
+      "cons": [
+        "Higher price point than competitors",
+        "Learning curve for advanced features",
+        "Limited customization options for enterprise"
+      ],
+      "has_free_trial": true,
+      "summary": "WidgetPro Solutions has been the gold standard in widget manufacturing since 2010. Their enterprise-grade widgets combine reliability with cutting-edge technology, making them the choice for Fortune 500 companies worldwide. While premium-priced, their support and warranty justify the investment."
+    },
+    {
+      "name": "BudgetWidgets Inc",
+      "rating": 6,
+      "benefits": [
+        "Most affordable option on the market",
+        "Quick setup process under 10 minutes",
+        "Good for small-scale projects"
+      ],
+      "cons": [
+        "Limited feature set compared to competitors",
+        "Email-only support with slow response times",
+        "Frequent bugs reported by users"
+      ],
+      "has_free_trial": true,
+      "summary": "BudgetWidgets Inc targets cost-conscious buyers who need basic widget functionality. While they sacrifice advanced features and support quality, they deliver adequate performance for simple use cases. Best suited for small businesses or personal projects with minimal requirements."
+    },
+    {
+      "name": "MegaWidget Corp",
+      "rating": 8,
+      "benefits": [
+        "Comprehensive feature set with monthly updates",
+        "Excellent API documentation and developer tools",
+        "Strong community with 50k+ active users"
+      ],
+      "cons": [
+        "Occasional downtime during peak hours",
+        "Mobile app needs improvement",
+        "Pricing tiers can be confusing"
+      ],
+      "has_free_trial": false,
+      "summary": "MegaWidget Corp strikes a balance between features and affordability. Their robust API and active developer community make them popular among technical teams. Recent infrastructure investments have improved reliability, though mobile experience still lags behind desktop."
+    },
+    {
+      "name": "NanoWidgets",
+      "rating": 7,
+      "benefits": [
+        "Smallest footprint in the industry",
+        "Perfect for embedded systems and IoT",
+        "Low power consumption"
+      ],
+      "cons": [
+        "Limited to specialized use cases",
+        "Sparse documentation",
+        "Small support team"
+      ],
+      "has_free_trial": true,
+      "summary": "NanoWidgets specializes in micro-widget solutions for IoT and embedded applications. Their focus on efficiency and small form factor makes them ideal for hardware projects. However, their niche focus means fewer resources for general-purpose implementations."
+    },
+    {
+      "name": "EnterpriseWidget Systems",
+      "rating": 9,
+      "benefits": [
+        "SOC2 and ISO certified security",
+        "Dedicated account manager for enterprise clients",
+        "Custom SLA agreements available"
+      ],
+      "cons": [
+        "Expensive - starts at $10k/year",
+        "Overkill for small to medium businesses",
+        "Long contract terms required"
+      ],
+      "has_free_trial": false,
+      "summary": "EnterpriseWidget Systems caters exclusively to large organizations with complex compliance needs. Their enterprise focus delivers unmatched security, support, and customization. Pricing reflects their premium positioning, making them unsuitable for smaller operations."
+    },
+    {
+      "name": "OpenWidget Foundation",
+      "rating": 7,
+      "benefits": [
+        "100% open source with active contributors",
+        "No licensing fees or vendor lock-in",
+        "Highly customizable and extensible"
+      ],
+      "cons": [
+        "Requires technical expertise to implement",
+        "No official support available",
+        "Documentation can be outdated"
+      ],
+      "has_free_trial": true,
+      "summary": "OpenWidget Foundation offers a community-driven, open-source alternative to commercial solutions. Developers appreciate the transparency and flexibility, but non-technical users may struggle with setup and maintenance. Best for teams with in-house technical resources."
+    },
+    {
+      "name": "CloudWidget Plus",
+      "rating": 8,
+      "benefits": [
+        "Fully managed cloud infrastructure",
+        "Auto-scaling handles traffic spikes",
+        "99.99% uptime SLA"
+      ],
+      "cons": [
+        "Data sovereignty concerns for some regions",
+        "Monthly costs scale with usage",
+        "Migration can be complex"
+      ],
+      "has_free_trial": true,
+      "summary": "CloudWidget Plus pioneered widget-as-a-service delivery. Their cloud-native architecture eliminates infrastructure headaches and scales automatically. Usage-based pricing is transparent but can become expensive for high-volume applications."
+    },
+    {
+      "name": "FastWidget Technologies",
+      "rating": 6,
+      "benefits": [
+        "Fastest processing speed in benchmark tests",
+        "Optimized for real-time applications",
+        "Lightweight client libraries"
+      ],
+      "cons": [
+        "Sacrifices features for performance",
+        "Limited third-party integrations",
+        "Steeper learning curve"
+      ],
+      "has_free_trial": false,
+      "summary": "FastWidget Technologies obsesses over performance, delivering sub-millisecond response times. Their specialized focus on speed attracts real-time applications like trading platforms and gaming. Feature set is minimal by design, which may frustrate some users."
+    },
+    {
+      "name": "SecureWidget Solutions",
+      "rating": 8,
+      "benefits": [
+        "Bank-level encryption and security",
+        "Regular penetration testing and audits",
+        "Compliance certifications for healthcare and finance"
+      ],
+      "cons": [
+        "Performance overhead from security layers",
+        "Complex configuration process",
+        "Higher latency than competitors"
+      ],
+      "has_free_trial": true,
+      "summary": "SecureWidget Solutions prioritizes security above all else. Ideal for regulated industries like healthcare and finance where compliance is critical. The security-first approach introduces some performance tradeoffs that may not suit all use cases."
+    },
+    {
+      "name": "FlexiWidget Co",
+      "rating": 7,
+      "benefits": [
+        "Highly customizable with plugin architecture",
+        "Supports multiple programming languages",
+        "Active marketplace for extensions"
+      ],
+      "cons": [
+        "Core features less polished than competitors",
+        "Marketplace quality varies widely",
+        "Can become bloated with too many plugins"
+      ],
+      "has_free_trial": true,
+      "summary": "FlexiWidget Co built their platform around extensibility. Their plugin marketplace offers thousands of add-ons, though quality varies. Core functionality is solid but unremarkable - the value comes from customization potential for specific workflows."
+    },
+    {
+      "name": "GreenWidget Alliance",
+      "rating": 6,
+      "benefits": [
+        "Carbon-neutral data centers",
+        "Sustainable manufacturing practices",
+        "Portion of profits fund environmental projects"
+      ],
+      "cons": [
+        "Premium pricing for eco-conscious features",
+        "Smaller server network affects latency",
+        "Limited features compared to mainstream options"
+      ],
+      "has_free_trial": true,
+      "summary": "GreenWidget Alliance targets environmentally conscious organizations. Their commitment to sustainability is genuine but comes with tradeoffs in pricing and performance. Good fit for brands prioritizing ESG goals over raw capabilities."
+    },
+    {
+      "name": "QuantumWidget Labs",
+      "rating": 5,
+      "benefits": [
+        "Cutting-edge experimental features",
+        "Academic partnerships drive innovation",
+        "Free for educational use"
+      ],
+      "cons": [
+        "Unstable - breaking changes common",
+        "Poor production readiness",
+        "Limited real-world case studies"
+      ],
+      "has_free_trial": true,
+      "summary": "QuantumWidget Labs operates more like a research project than a product company. Their bleeding-edge features attract early adopters and academics, but frequent breaking changes make them risky for production environments. Best for experimentation."
+    },
+    {
+      "name": "SimpleWidget App",
+      "rating": 8,
+      "benefits": [
+        "Easiest setup process - under 5 minutes",
+        "Beautiful, intuitive user interface",
+        "Excellent mobile app experience"
+      ],
+      "cons": [
+        "Limited advanced features for power users",
+        "No API access on lower tiers",
+        "Opinionated design limits customization"
+      ],
+      "has_free_trial": true,
+      "summary": "SimpleWidget App proves that widgets don't have to be complicated. Their focus on user experience results in a polished, accessible product that non-technical users love. Power users may find the simplified approach constraining."
+    },
+    {
+      "name": "GlobalWidget Network",
+      "rating": 7,
+      "benefits": [
+        "Data centers in 50+ countries",
+        "Multi-language support for 30+ languages",
+        "Local compliance expertise worldwide"
+      ],
+      "cons": [
+        "Complex pricing across regions",
+        "Feature parity varies by location",
+        "Support quality inconsistent internationally"
+      ],
+      "has_free_trial": false,
+      "summary": "GlobalWidget Network's international infrastructure makes them ideal for multi-national deployments. Their geographic reach is unmatched, though managing a global footprint introduces complexity in pricing and support consistency."
+    },
+    {
+      "name": "DevWidget Studio",
+      "rating": 9,
+      "benefits": [
+        "Developer-first approach with excellent DX",
+        "Comprehensive SDK for all major languages",
+        "Generous free tier for development"
+      ],
+      "cons": [
+        "Non-technical users find it intimidating",
+        "Limited GUI for configuration",
+        "Assumes high technical proficiency"
+      ],
+      "has_free_trial": true,
+      "summary": "DevWidget Studio is built by developers for developers. Their API-first design and extensive documentation make integration a joy for technical teams. However, the lack of user-friendly interfaces makes them unsuitable for less technical organizations."
+    },
+    {
+      "name": "LegacyWidget Partners",
+      "rating": 5,
+      "benefits": [
+        "30+ years of market presence",
+        "Maintains backwards compatibility religiously",
+        "Enterprise clients include major banks"
+      ],
+      "cons": [
+        "Outdated user interface",
+        "Slow to adopt modern standards",
+        "Technical debt evident in performance"
+      ],
+      "has_free_trial": false,
+      "summary": "LegacyWidget Partners built their reputation in the 1990s and haven't changed much since. Their stability and backwards compatibility attract risk-averse enterprises, but aging technology and UI make them less competitive against modern alternatives."
+    },
+    {
+      "name": "AIWidget Intelligence",
+      "rating": 7,
+      "benefits": [
+        "ML-powered optimization and predictions",
+        "Automated anomaly detection",
+        "Smart recommendations for improvements"
+      ],
+      "cons": [
+        "AI features require large datasets to be effective",
+        "Black box decision-making concerns",
+        "Higher computational costs"
+      ],
+      "has_free_trial": true,
+      "summary": "AIWidget Intelligence integrates machine learning into core widget functionality. Their AI features provide genuine value for data-rich applications but require significant data volume to be effective. Organizations must weigh AI benefits against computational costs."
+    },
+    {
+      "name": "MicroWidget Services",
+      "rating": 6,
+      "benefits": [
+        "Microservices architecture for flexibility",
+        "Pay only for features you use",
+        "Easy to scale individual components"
+      ],
+      "cons": [
+        "Complexity of managing multiple services",
+        "Network latency between services",
+        "Debugging can be challenging"
+      ],
+      "has_free_trial": true,
+      "summary": "MicroWidget Services embraces microservices architecture, offering flexibility to scale and pay for components independently. This approach works well for sophisticated teams but introduces operational complexity that smaller organizations may struggle to manage."
+    },
+    {
+      "name": "CommunityWidget Hub",
+      "rating": 8,
+      "benefits": [
+        "Thriving community forums and support",
+        "Regular meetups and conferences",
+        "Extensive third-party tutorials and courses"
+      ],
+      "cons": [
+        "Official documentation sometimes lacking",
+        "Reliance on community for problem-solving",
+        "Product roadmap influenced heavily by vocal users"
+      ],
+      "has_free_trial": true,
+      "summary": "CommunityWidget Hub built their success on fostering an engaged user community. Their forums, events, and user-generated content create a supportive ecosystem. However, heavy reliance on community support means official resources can feel incomplete."
+    },
+    {
+      "name": "PremiumWidget Collective",
+      "rating": 9,
+      "benefits": [
+        "White-glove onboarding and training",
+        "Custom feature development available",
+        "Quarterly business reviews with your team"
+      ],
+      "cons": [
+        "Very expensive - $50k+ annual minimum",
+        "Long sales cycle and procurement process",
+        "Overkill unless you have complex requirements"
+      ],
+      "has_free_trial": false,
+      "summary": "PremiumWidget Collective offers concierge-level service for elite clients. Their custom development and hands-on support justify premium pricing for organizations with complex needs. Smaller companies should look elsewhere unless budget is unlimited."
+    }
+  ]
