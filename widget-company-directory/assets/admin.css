@@ -1,0 +1,29 @@
+.wcd-columns {
+  display: flex;
+  gap: 24px;
+}
+.wcd-col {
+  flex: 1;
+  min-width: 320px;
+}
+.wcd-list {
+  border: 1px solid #ddd;
+  min-height: 200px;
+  padding: 8px;
+  background: #fff;
+}
+.wcd-list li {
+  margin: 6px 0;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+  cursor: move;
+  list-style: none;
+}
+#wcd-status { margin-left: 8px; }
+.wcd-placeholder { 
+  height: 34px; 
+  border: 2px dashed #ccd0d4; 
+  margin: 2px 0; 
+}
+.wcd-list li { cursor: move; }
