@@ -1,0 +1,45 @@
+/**
+ * Frontend styles for the Company List block
+ */
+
+.wp-block-widget-directory-company-list {
+	margin: 2rem 0;
+}
+
+/* TODO: Add your company list styles here */
+.company-item {
+	margin-bottom: 2rem;
+	padding: 1.5rem;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.company-item h3 {
+	margin-top: 0;
+}
+
+.company-rating {
+	color: #f39c12;
+	font-weight: bold;
+}
+
+.free-trial-badge {
+	display: inline-block;
+	padding: 0.25rem 0.75rem;
+	background: #27ae60;
+	color: white;
+	border-radius: 3px;
+	font-size: 0.875rem;
+	margin-left: 0.5rem;
+}
+
+.company-benefits,
+.company-cons {
+	margin: 1rem 0;
+}
+
+.company-benefits ul,
+.company-cons ul {
+	margin: 0.5rem 0;
+	padding-left: 1.5rem;
+}

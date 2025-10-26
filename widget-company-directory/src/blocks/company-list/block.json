@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "widget-company-directory/company-list",
+  "version": "1.0.0",
+  "title": "Company List",
+  "category": "widgets",
+  "icon": "list-view",
+  "description": "Display a curated list of companies from the Company Directory plugin",
+  "keywords": ["companies", "directory", "list"],
+  "supports": {
+    "html": false,
+    "align": true
+  },
+  "attributes": {
+    "listId": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "widget-company-directory",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}

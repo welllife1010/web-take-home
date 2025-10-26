@@ -1,0 +1,21 @@
+/**
+ * Editor styles for the Company List block
+ */
+
+.company-list-placeholder {
+	padding: 2rem;
+	background: #f0f0f1;
+	border: 1px dashed #c3c4c7;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.company-list-placeholder h3 {
+	margin-top: 0;
+	color: #1e1e1e;
+}
+
+.company-list-placeholder p {
+	color: #757575;
+	margin: 0.5rem 0;
+}
