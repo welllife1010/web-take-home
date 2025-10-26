@@ -1,0 +1,41 @@
+# WordPress Core Files
+/wordpress/
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+
+# WordPress Environment
+.wp-env/*
+!.wp-env.json
+.DS_Store
+.vscode/
+npm-debug.log*
+
+# Database
+*.sql
+*.sql.gz
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+/vendor/
+node_modules/
+
+## MISC
+MOOM/
+.claude
+CLAUDE.md
+logs/
