@@ -3,7 +3,7 @@
  * Plugin Name: Widget Company Directory
  * Description: A simple directory of companies + curated lists, with a Gutenberg block to display a selected list on the frontend.
  * Version: 1.0.0
- * Author: Your Name
+ * Author: Silvia Chen
  * Text Domain: widget-company-directory
  */
 
@@ -12,14 +12,14 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 /**
  * 1) Define constants
  *    - PLUGIN_DIR: absolute path to this plugin
- *    - PLUGIN_URL: URL to assets if you ever need it
+ *    - PLUGIN_URL: URL to assets (for enqueueing)
  */
 define( 'WIDGET_COMPANY_DIRECTORY_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'WIDGET_COMPANY_DIRECTORY_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
 /**
  * 2) Includes
- *    Keep your logic split into small classes by domain:
+ *    Keep the logic split into small classes by domain:
  *    - Company: registers CPT + meta, importer helpers
  *    - Admin: admin pages & sortable UI for company lists
  *    - Render: dynamic block server-side render

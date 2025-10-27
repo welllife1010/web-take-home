@@ -24,18 +24,37 @@ class Render {
 
     public static function render_company_list( array $attributes, string $content ) : string {
         $list_id = isset($attributes['listId']) ? intval($attributes['listId']) : 0;
+
+        // Wrapper attributes: includes wp-block-* class and alignment classes automatically.
+        $wrapper_attrs = function_exists('get_block_wrapper_attributes')
+            ? get_block_wrapper_attributes( [ 'class' => 'wcd-company-list' ] )
+            : 'class="wcd-company-list"';
+
         if ( $list_id <= 0 ) {
-            return '<div class="wp-block-widget-directory-company-list"><em>No list selected.</em></div>';
+            return "<div $wrapper_attrs><em>" . esc_html__( 'No list selected.', 'widget-company-directory' ) . "</em></div>";
         }
 
         $ids = (array) get_post_meta( $list_id, '_wcd_company_ids', true );
         if ( empty( $ids ) ) {
-            return '<div class="wp-block-widget-directory-company-list"><em>List is empty.</em></div>';
+            return "<div $wrapper_attrs><em>" . esc_html__( 'List is empty.', 'widget-company-directory' ) . "</em></div>";
+        }
+
+        // Normalize IDs
+        $ids = (array) get_post_meta( $list_id, '_wcd_company_ids', true );
+        $ids = array_values( array_filter( array_map( 'intval', $ids ), fn( $id ) => $id > 0 ) );
+
+        if ( empty( $ids ) ) {
+            return "<div $wrapper_attrs><em>" . esc_html__( 'List is empty.', 'widget-company-directory' ) . "</em></div>";
         }
 
         ob_start();
-        echo '<div class="wp-block-widget-directory-company-list">';
+        echo "<ul $wrapper_attrs>";
         foreach ( $ids as $cid ) {
+            $post = get_post( $cid );
+            if ( ! $post ) {
+                continue; // skip missing/deleted items
+            }
+
             $title    = get_the_title( $cid );
             $raw      = get_post_field( 'post_content', $cid );
             $summary  = wpautop( wp_kses_post( $raw ) ); // no the_content filter; avoids recursion & saves memory
@@ -45,14 +64,19 @@ class Render {
             $trial    = (bool) get_post_meta( $cid, '_wcd_has_free_trial', true );
 
             ?>
-            <article class="company-item">
+            <article class="wcd-company">
                 <h3>
                     <?php echo esc_html( $title ); ?>
-                    <?php if ( $trial ) : ?>
-                        <span class="free-trial-badge"><?php esc_html_e('Free Trial','widget-company-directory'); ?></span>
-                    <?php endif; ?>
                 </h3>
+
                 <div class="company-rating"><?php echo esc_html( 'Rating: ' . $rating . '/10' ); ?></div>
+
+
+                <?php 
+                    if ( $trial ) {
+                        echo '<span class="free-trial-badge">' . esc_html__( 'Free Trial', 'widget-company-directory' ) . '</span>';
+                    }
+                ?>
 
                 <?php if ( ! empty( $benefits ) ) : ?>
                     <div class="company-benefits">
@@ -80,7 +104,7 @@ class Render {
             </article>
             <?php
         }
-        echo '</div>';
+        echo '</ul>';
         return ob_get_clean();
     }
 }
